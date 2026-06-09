@@ -1,0 +1,22 @@
+baseURL = 'https://example.com/'
+languageCode = 'zh-CN'
+title = 'TigerAIGC'
+theme = 'PaperMod'
+
+defaultContentLanguage = 'zh-cn'
+hasCJKLanguage = true
+enableRobotsTXT = true
+
+[pagination]
+  pagerSize = 10
+
+[params]
+  env = 'production'
+  description = '分享 AI、工具和教程内容的个人独立网站'
+  author = 'TigerAIGC'
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = true
