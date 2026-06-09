@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: TigerAIGC/YOUR_REPOSITORY_NAME
+  repo: TigerAIGC/blog
   branch: main
 
 local_backend: true
