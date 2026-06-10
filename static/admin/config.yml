@@ -2,8 +2,8 @@ backend:
   name: github
   repo: TigerAIGC/blog
   branch: main
-
-local_backend: true
+  base_url: https://auth.aildm.com
+  auth_endpoint: /auth
 
 locale: zh_Hans
 
