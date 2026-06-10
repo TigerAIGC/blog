@@ -7,16 +7,63 @@ defaultContentLanguage = 'zh-cn'
 hasCJKLanguage = true
 enableRobotsTXT = true
 
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+
 [pagination]
   pagerSize = 10
 
 [params]
   env = 'production'
   description = '分享 AI、工具和教程内容的个人独立网站'
+  keywords = ['AI工具', '人工智能', '效率工具', '教程', '独立网站']
   author = 'TigerAIGC'
+  defaultTheme = 'light'
   ShowReadingTime = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   ShowToc = true
   TocOpen = true
+  disableSpecial1stPost = true
+  ShowShareButtons = true
+  ShowRssButtonInSectionTermList = true
+
+  [params.cover]
+    responsiveImages = false
+    linkFullImages = true
+
+[menu]
+  [[menu.main]]
+    identifier = 'posts'
+    name = '文章'
+    url = '/posts/'
+    weight = 10
+
+  [[menu.main]]
+    identifier = 'categories'
+    name = '分类'
+    url = '/categories/'
+    weight = 20
+
+  [[menu.main]]
+    identifier = 'tags'
+    name = '标签'
+    url = '/tags/'
+    weight = 30
+
+  [[menu.main]]
+    identifier = 'archives'
+    name = '归档'
+    url = '/archives/'
+    weight = 40
+
+  [[menu.main]]
+    identifier = 'search'
+    name = '搜索'
+    url = '/search/'
+    weight = 50
