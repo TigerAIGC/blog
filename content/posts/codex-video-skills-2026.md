@@ -1,17 +1,22 @@
-+++
-title = '2026年Codex视频Skills五大王者推荐'
-date = '2026-06-09T23:41:49+08:00'
-draft = false
-description = '本文推荐 2026 年值得关注的五类 Codex 视频 Skills，适合想用 AI 提升视频制作效率的创作者参考。'
-categories = ['AI工具']
-tags = ['Codex', 'Skills', 'AI视频', '视频制作', '工作流']
-
-[cover]
-image = '/images/codex-video-skills-2026/cover.jpg'
-alt = 'Codex 视频 Skills 推荐封面图'
-caption = '用 Codex Skills 搭建更高效的视频创作流程'
-relative = false
-+++
+---
+title: 2026年Codex视频Skills五大王者推荐
+date: 2026-06-09T23:41:49+08:00
+draft: false
+description: 本文推荐 2026 年值得关注的五类 Codex 视频 Skills，适合想用 AI 提升视频制作效率的创作者参考。
+categories:
+  - AI工具
+tags:
+  - Codex
+  - Skills
+  - AI视频
+  - 视频制作
+  - 工作流
+cover:
+  image: /images/uploads/ig_066537e6772103ab016a28389faf4481918b20c96d85c7cf45.png
+  alt: Codex 视频 Skills 推荐封面图
+  caption: 用 Codex Skills 搭建更高效的视频创作流程
+  relative: false
+---
 
 ## 这篇文章解决什么问题
 
