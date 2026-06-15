@@ -1,6 +1,6 @@
 baseURL = 'https://www.aildm.com/'
 locale = 'zh-CN'
-title = 'TigerAIGC'
+title = 'AI与数字营销'
 theme = 'PaperMod'
 
 defaultContentLanguage = 'zh-cn'
@@ -45,8 +45,8 @@ enableRobotsTXT = true
 
 [params]
   env = 'production'
-  description = '分享 AI、工具和教程内容的个人独立网站'
-  keywords = ['AI工具', '人工智能', '效率工具', '教程', '独立网站']
+  description = 'AI与数字营销是一个面向零基础用户的知识博客，分享 AIGC 内容创作、AI 漫剧、AI 智能体与工作流、AI 编程、SEO/GEO、互联网营销运营、网络配置和实用工具教程。'
+  keywords = ['AI与数字营销', 'AIGC', 'AI漫剧', 'AI智能体', 'AI工作流', 'AI编程', 'SEO', 'GEO', '数字营销', '互联网运营', '网络配置', 'AI工具教程']
   author = 'TigerAIGC'
   defaultTheme = 'light'
   ShowReadingTime = true
