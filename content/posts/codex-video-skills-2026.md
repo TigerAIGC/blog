@@ -17,14 +17,13 @@ cover:
   caption: 用 Codex Skills 搭建更高效的视频创作流程
   relative: false
 ---
-
 ## 这篇文章解决什么问题
 
 如果你已经开始用 Codex 做内容创作，很快会遇到一个问题：视频相关能力很多，但到底哪些 Skills 值得优先掌握？
 
 本文按照个人独立创作者的实际需求，整理 2026 年我认为最值得关注的五类 Codex 视频 Skills。它们不一定是最炫的，但都能直接提升视频制作效率。
 
-![Codex 视频 Skills 工作流示意图](/images/codex-video-skills-2026/workflow.jpg)
+
 
 ## 第一位：网站转视频 Skill
 
