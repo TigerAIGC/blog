@@ -1,0 +1,13 @@
+{{- $utterances := site.Params.utterances -}}
+{{- with $utterances.repo }}
+<div class="comments">
+  <script src="https://utteranc.es/client.js"
+    repo="{{ . }}"
+    issue-term="{{ $utterances.issueTerm | default "pathname" }}"
+    label="{{ $utterances.label | default "comment" }}"
+    theme="{{ $utterances.theme | default "github-light" }}"
+    crossorigin="anonymous"
+    async>
+  </script>
+</div>
+{{- end }}

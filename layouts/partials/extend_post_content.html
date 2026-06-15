@@ -1,0 +1,10 @@
+{{- $adsense := site.Params.adsense -}}
+{{- if and $adsense.enabled $adsense.client $adsense.inArticleSlot -}}
+  {{ partial "adsense.html" (dict "slot" $adsense.inArticleSlot "format" "fluid" "layout" "in-article" "placement" "in-article") }}
+{{- end -}}
+
+{{ partial "related_posts.html" . }}
+
+{{- if and $adsense.enabled $adsense.client $adsense.displaySlot -}}
+  {{ partial "adsense.html" (dict "slot" $adsense.displaySlot "format" "auto" "placement" "display") }}
+{{- end -}}

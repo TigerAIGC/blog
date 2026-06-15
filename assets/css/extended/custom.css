@@ -18,3 +18,71 @@ html[data-region="intl"] body {
 .first-entry {
   min-height: auto;
 }
+
+.comments {
+  margin-top: 40px;
+}
+
+.ad-unit {
+  margin: 32px 0;
+  min-height: 120px;
+}
+
+.ad-unit-display {
+  margin-top: 36px;
+}
+
+.related-posts {
+  margin-top: 40px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+}
+
+.related-posts h2 {
+  margin: 0 0 16px;
+  font-size: 1.15rem;
+}
+
+.related-posts-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.related-post {
+  display: block;
+  padding: 14px 16px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--entry);
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.related-post:hover {
+  border-color: var(--secondary);
+  transform: translateY(-1px);
+}
+
+.related-post-title,
+.related-post-desc {
+  display: block;
+}
+
+.related-post-title {
+  color: var(--primary);
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.related-post-desc {
+  margin-top: 6px;
+  color: var(--secondary);
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
+@media (max-width: 640px) {
+  .related-posts-list {
+    grid-template-columns: 1fr;
+  }
+}

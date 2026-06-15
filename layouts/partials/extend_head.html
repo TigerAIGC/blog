@@ -32,3 +32,8 @@
       .catch(function () {});
   })();
 </script>
+
+{{- $adsense := site.Params.adsense -}}
+{{- if and $adsense.enabled $adsense.client (or $adsense.autoAds $adsense.inArticleSlot $adsense.displaySlot) }}
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ $adsense.client }}" crossorigin="anonymous"></script>
+{{- end }}

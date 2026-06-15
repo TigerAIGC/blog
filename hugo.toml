@@ -1,11 +1,16 @@
 baseURL = 'https://www.aildm.com/'
-languageCode = 'zh-CN'
+locale = 'zh-CN'
 title = 'TigerAIGC'
 theme = 'PaperMod'
 
 defaultContentLanguage = 'zh-cn'
 hasCJKLanguage = true
 enableRobotsTXT = true
+
+[sitemap]
+  changeFreq = 'weekly'
+  priority = 0.7
+  filename = 'sitemap.xml'
 
 [outputs]
   home = ['HTML', 'RSS', 'JSON']
@@ -16,6 +21,27 @@ enableRobotsTXT = true
 
 [pagination]
   pagerSize = 10
+
+[related]
+  threshold = 60
+  includeNewer = true
+  toLower = true
+
+  [[related.indices]]
+    name = 'tags'
+    weight = 100
+
+  [[related.indices]]
+    name = 'categories'
+    weight = 80
+
+  [[related.indices]]
+    name = 'keywords'
+    weight = 60
+
+  [[related.indices]]
+    name = 'date'
+    weight = 10
 
 [params]
   env = 'production'
@@ -32,10 +58,28 @@ enableRobotsTXT = true
   disableSpecial1stPost = true
   ShowShareButtons = true
   ShowRssButtonInSectionTermList = true
+  comments = true
 
   [params.cover]
     responsiveImages = false
     linkFullImages = true
+
+  [params.utterances]
+    repo = 'TigerAIGC/blog'
+    issueTerm = 'pathname'
+    label = 'comment'
+    theme = 'github-light'
+
+  [params.adsense]
+    enabled = true
+    client = 'ca-pub-2580913634697099'
+    autoAds = true
+    inArticleSlot = ''
+    displaySlot = ''
+
+  [params.relatedPosts]
+    enabled = true
+    count = 4
 
 [menu]
   [[menu.main]]

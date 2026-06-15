@@ -1,0 +1,22 @@
+{{- $relatedConfig := site.Params.relatedPosts -}}
+{{- if $relatedConfig.enabled -}}
+{{- $limit := $relatedConfig.count | default 4 -}}
+{{- $related := .Site.RegularPages.Related . | first $limit -}}
+{{- with $related }}
+<section class="related-posts" aria-labelledby="related-posts-title">
+  <h2 id="related-posts-title">相关文章</h2>
+  <div class="related-posts-list">
+    {{- range . }}
+    <a class="related-post" href="{{ .RelPermalink }}">
+      <span class="related-post-title">{{ .Title }}</span>
+      {{- with .Description }}
+      <span class="related-post-desc">{{ . }}</span>
+      {{- else }}
+      <span class="related-post-desc">{{ .Summary | plainify | truncate 96 }}</span>
+      {{- end }}
+    </a>
+    {{- end }}
+  </div>
+</section>
+{{- end -}}
+{{- end -}}
