@@ -1,4 +1,4 @@
-baseURL = 'https://aildm.com/'
+baseURL = 'https://www.aildm.com/'
 locale = 'zh-CN'
 title = 'TigerAIGC'
 theme = 'PaperMod'
