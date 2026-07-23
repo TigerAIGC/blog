@@ -1,9 +1,5 @@
 body {
-  font-family: "Microsoft YaHei", Arial, sans-serif;
-}
-
-html[data-region="intl"] body {
-  font-family: "Noto Sans", "Noto Sans SC", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
 }
 
 .main {
